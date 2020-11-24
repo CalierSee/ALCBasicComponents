@@ -1,0 +1,6 @@
+framework module ALCBasicComponents {
+  umbrella header "ALCBasicComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

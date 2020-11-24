@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALCBasicComponents'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ALCBasicComponents.'
+  s.version          = '0.1.1'
+  s.summary          = '薪收支基础组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  薪收支基础组件
                        DESC
 
-  s.homepage         = 'https://github.com/景彦铭/ALCBasicComponents'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/CalierSee/ALCBasicComponents.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '景彦铭' => '436005247@qq.com' }
-  s.source           = { :git => 'https://github.com/景彦铭/ALCBasicComponents.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ALCBasicComponents/Classes/**/*'
+  s.source           = { :git => 'https://github.com/CalierSee/ALCBasicComponents.git', :tag => s.version.to_s }
   
-  # s.resource_bundles = {
-  #   'ALCBasicComponents' => ['ALCBasicComponents/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '10.0'
+  #s.static_framework  =  true
+  s.requires_arc = true
+  s.swift_versions = '5.0'
+  
+  s.source_files = ['ALCBasicComponents/Classes/**/*.{h,m}']
+  
+   #s.resource_bundles = {
+   #  'ALCBasicComponents' => ['ALCBasicComponents/Assets/*.png']
+   #}
+  
+   s.frameworks = 'UIKit', 'Foundation'
+   
 end

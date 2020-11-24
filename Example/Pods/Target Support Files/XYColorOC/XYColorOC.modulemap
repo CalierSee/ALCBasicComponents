@@ -1,0 +1,6 @@
+framework module XYColorOC {
+  umbrella header "XYColorOC-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "ALCBasicComponents",
+  "version": "0.1.1",
+  "summary": "薪收支基础组件",
+  "description": "薪收支基础组件",
+  "homepage": "http://192.168.0.253/allocation-native/ALCBasicComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "景彦铭": "436005247@qq.com"
+  },
+  "source": {
+    "git": "http://192.168.0.253/allocation-native/ALCBasicComponents.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "swift_versions": "5.0",
+  "source_files": [
+    "ALCBasicComponents/Classes/**/*.{h,m}"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "CYLTabBarController": [
+
+    ],
+    "Charts": [
+
+    ],
+    "Colours": [
+
+    ],
+    "DateTools": [
+
+    ],
+    "FSCalendar": [
+
+    ],
+    "GKPhotoBrowser": [
+
+    ],
+    "JKCategories": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ReactiveObjC": [
+
+    ],
+    "SAMKeychain": [
+
+    ],
+    "Toast": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "YTKNetwork": [
+
+    ],
+    "XYColorOC": [
+
+    ],
+    "SDWebImage": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}
